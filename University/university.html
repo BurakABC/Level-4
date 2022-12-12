@@ -13,9 +13,8 @@
 <body>
     <div class="container">
         <div>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseComponent" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Universities in Canada
-              </a>
+            <a id="collapseButton" data-bs-toggle="collapse" href="#collapseComponent" role="button" aria-expanded="false" aria-controls="collapseExample">
+            </a>
         </div>
         <div class="collapse" id="collapseComponent">
             <div class="card card-body">
@@ -23,6 +22,15 @@
 
                 </div>
             </div>
+        </div>
+        <div>
+            <form>
+                <select id="target">
+                  <option value="Canada" selected="selected">Canada</option>
+                  <option value="United+States">United States</option>
+                </select>
+            </form>
+            <button onclick="addVal()">Add</button>
         </div>
 
 
