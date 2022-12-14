@@ -1,0 +1,102 @@
+.game-container {
+    width: 600px;
+    height: auto;
+    background-image: url(background.gif);
+    background-size: 600px 200px;
+    position: relative;
+    margin: auto;
+    /*Both margin and height is set as auto because we want the game to be centered!*/
+}
+
+.game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    margin: auto;
+    /*Both margin and height is set as auto because we want the game to be centered reltive to the container*/
+}
+
+#scorepanel {
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+#dino {
+    width: 50px;
+    height: 50px;
+    background-image: url(Runningdino.gif);
+    background-size: 50px 50px;
+    position: relative;
+    /*it will be relative to the box not the screen*/
+    top: 150px;
+    /*it can jump 150px then pushing the dino 150px down. The top of the dino is 50px the to the top is 150px*/
+    z-index: 9;
+    /*We want the dino to be on front of the background*/
+}
+
+#cactus {
+    width: 20px;
+    height: 40px;
+    /*A little higher then the dino.*/
+    position: relative;
+    top: 110px;
+    left: 580px;
+    /*it goes left that many px look in key frames if confused*/
+    background-image: url("cactus.png");
+    background-size: 20px 40px;
+    animation: moveleft 2.0s infinite linear;
+    /*The less the faster the catus goes*/
+}
+
+.jump {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    /*Dino*/
+    0% {
+        top: 150px;
+    }
+    10% {
+        top: 100px;
+    }
+    20% {
+        top: 80px;
+    }
+    30% {
+        top: 60px;
+    }
+    40% {
+        top: 40px;
+    }
+    50% {
+        top: 20px;
+    }
+    60% {
+        top: 60px;
+    }
+    70% {
+        top: 80px;
+    }
+    80% {
+        top: 100px;
+    }
+    90% {
+        top: 120px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+
+@keyframes moveleft {
+    /*Catus*/
+    0% {
+        left: 580px;
+    }
+    100% {
+        left: -20px;
+    }
+}

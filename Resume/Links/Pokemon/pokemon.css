@@ -1,0 +1,96 @@
+.card-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col {
+    padding: 0;
+}
+
+.action-row {
+    margin-top: 10px;
+    height: 50px;
+    text-align: center;
+}
+
+.water-type {
+    background-image: url('type-bg/water-type.png');
+    width: 100%;
+    color: white;
+}
+
+.fire-type {
+    background-image: url('type-bg/fire-type.png');
+    width: 100%;
+    color: white;
+}
+
+.grass-type {
+    background-image: url('type-bg/grass-type.png');
+    width: 100%;
+}
+
+.electric-type {
+    background-image: url('type-bg/electric-type.png');
+    width: 100%;
+    color: white;
+}
+
+.bug-type {
+    background-image: url('type-bg/bug-type.png');
+    width: 100%;
+}
+
+.ghost-type {
+    background-image: url('type-bg/ghost-type.png');
+    width: 100%;
+    color: white;
+}
+
+.normal-type {
+    background-image: url('type-bg/normal-type.png');
+    width: 100%;
+}
+
+.psychic-type {
+    background-image: url('type-bg/psychic-type.png');
+    width: 100%;
+}
+
+.dragon-type {
+    background-image: url('type-bg/dragon-type.png');
+    width: 100%;
+}
+
+.ice-type {
+    background-image: url('type-bg/ice-type.png');
+    width: 100%;
+}
+
+.poison-type {
+    background-image: url('type-bg/poison-type.png');
+    width: 100%;
+    color: white;
+}
+
+.ground-type {
+    background-image: url('type-bg/ground-type.png');
+    width: 100%;
+    color: white;
+}
+
+.rock-type {
+    background-image: url('type-bg/rock-type.png');
+    width: 100%;
+    color: white;
+}
+
+.fighting-type {
+    background-image: url('type-bg/fighting-type.png');
+    width: 100%;
+    color: white;
+}
